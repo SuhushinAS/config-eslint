@@ -27,5 +27,6 @@
     "name": "@suhushinas/config-eslint",
     "scripts": {
         "test": "echo \"No test specified\""
-    }
+    },
+    "version": "1.0.0"
 }
