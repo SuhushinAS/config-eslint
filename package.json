@@ -1,0 +1,31 @@
+{
+    "author": "SuhushinAS",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^2.21.0",
+        "@typescript-eslint/parser": "^2.21.0",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-flowtype": "^4.6.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-import-order-alphabetical": "^1.0.0",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.18.3",
+        "eslint-plugin-react-hooks": "^2.4.0",
+        "prettier": "^1.19.1"
+    },
+    "devDependencies": {
+        "prop-types": "^15.7.2",
+        "react": "^16.12.0",
+        "typescript": "^3.8.2"
+    },
+    "files": [
+        "rules/"
+    ],
+    "license": "UNLICENSED",
+    "main": "./pre.js",
+    "name": "@suhushinas/config-eslint",
+    "scripts": {
+        "test": "echo \"No test specified\""
+    }
+}

@@ -1,0 +1,22 @@
+module.exports = {
+    extends: ['./default_pre.js'],
+    rules: {
+        'init-declarations': 1,
+        'max-lines-per-function': [1, {max: 50}],
+        'no-extra-bind': 1,
+        'no-implicit-globals': 1,
+        'no-magic-numbers': [1, {ignore: [-1, 0, 1, 2]}],
+        'no-multi-str': 1,
+        'no-new': 1,
+        'no-restricted-globals': 1,
+        'no-restricted-properties': 1,
+        'no-template-curly-in-string': 1,
+        'no-undefined': 1,
+        'no-use-before-define': 1,
+        'no-warning-comments': 1,
+        'prefer-named-capture-group': 1,
+        'prefer-promise-reject-errors': 1,
+        'require-atomic-updates': 1,
+        'require-await': 1,
+    },
+};
