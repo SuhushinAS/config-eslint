@@ -26,7 +26,7 @@
     ],
     "license": "UNLICENSED",
     "main": "./pre.js",
-    "name": "@suhushinas/config-eslint",
+    "name": "@suhushinas/eslint-config",
     "scripts": {
         "test": "echo \"No test specified\""
     },
