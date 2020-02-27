@@ -20,7 +20,9 @@
         "typescript": "^3.8.2"
     },
     "files": [
-        "rules/"
+        "rules/",
+        "post.js",
+        "pre.js"
     ],
     "license": "UNLICENSED",
     "main": "./pre.js",
