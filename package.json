@@ -28,8 +28,12 @@
     "license": "UNLICENSED",
     "main": "./pre.js",
     "name": "@suhushinas/eslint-config",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:SuhushinAS/eslint-config.git"
+    },
     "scripts": {
         "test": "echo \"No test specified\""
     },
-    "version": "1.0.3"
+    "version": "1.0.4"
 }
