@@ -16,12 +16,10 @@
         "prettier": "^2.0.5"
     },
     "files": [
-        "rules/",
-        "post.js",
-        "pre.json"
+        "rules/"
     ],
     "license": "UNLICENSED",
-    "main": "./pre.json",
+    "main": "./rules/pre.json",
     "name": "@suhushinas/eslint-config",
     "repository": {
         "type": "git",
@@ -30,5 +28,5 @@
     "scripts": {
         "test": "echo \"No test specified\""
     },
-    "version": "2.0.4"
+    "version": "2.0.5"
 }
