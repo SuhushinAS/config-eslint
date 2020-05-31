@@ -21,7 +21,7 @@
         "pre.js"
     ],
     "license": "UNLICENSED",
-    "main": "./pre.js",
+    "main": "./pre.json",
     "name": "@suhushinas/eslint-config",
     "repository": {
         "type": "git",
