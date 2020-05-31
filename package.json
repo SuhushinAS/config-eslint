@@ -18,7 +18,7 @@
     "files": [
         "rules/",
         "post.js",
-        "pre.js"
+        "pre.json"
     ],
     "license": "UNLICENSED",
     "main": "./pre.json",
