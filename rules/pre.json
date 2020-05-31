@@ -12,7 +12,7 @@
         "./flowtype.json",
         "./react.json",
         "./jsx-a11y.json",
-        "./import.jon"
+        "./import.json"
     ],
     "parser": "babel-eslint",
     "parserOptions": {
