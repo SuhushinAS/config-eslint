@@ -7,12 +7,12 @@
         "node": true
     },
     "extends": [
-        "./rules/eslint.json",
-        "./rules/prettier.json",
-        "./rules/flowtype.json",
-        "./rules/react.json",
-        "./rules/jsx-a11y.json",
-        "./rules/import.jon"
+        "./eslint.json",
+        "./prettier.json",
+        "./flowtype.json",
+        "./react.json",
+        "./jsx-a11y.json",
+        "./import.jon"
     ],
     "parser": "babel-eslint",
     "parserOptions": {
