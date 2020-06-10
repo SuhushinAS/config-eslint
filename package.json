@@ -1,5 +1,8 @@
 {
     "author": "SuhushinAS",
+    "bugs": {
+        "url": "https://github.com/SuhushinAS/eslint-config/issues"
+    },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^3.2.0",
         "@typescript-eslint/parser": "^3.2.0",
@@ -14,15 +17,21 @@
         "eslint-plugin-react-hooks": "^4.0.4",
         "prettier": "^2.0.5"
     },
+    "description": "",
+    "devDependencies": {},
     "files": [
         "rules/"
     ],
+    "homepage": "https://github.com/SuhushinAS/eslint-config#readme",
     "license": "MIT",
     "main": "./rules/pre.json",
     "name": "@suhushinas/eslint-config",
     "repository": {
         "type": "git",
-        "url": "git@github.com:SuhushinAS/eslint-config.git"
+        "url": "git+ssh://git@github.com/SuhushinAS/eslint-config.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "version": "3.0.0"
 }
