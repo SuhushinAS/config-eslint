@@ -17,15 +17,12 @@
     "files": [
         "rules/"
     ],
-    "license": "UNLICENSED",
+    "license": "MIT",
     "main": "./rules/pre.json",
     "name": "@suhushinas/eslint-config",
     "repository": {
         "type": "git",
         "url": "git@github.com:SuhushinAS/eslint-config.git"
-    },
-    "scripts": {
-        "test": "echo \"No test specified\""
     },
     "version": "3.0.7"
 }
