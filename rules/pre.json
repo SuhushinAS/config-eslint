@@ -9,7 +9,6 @@
     "extends": [
         "./eslint.json",
         "./prettier.json",
-        "./flowtype.json",
         "./react.json",
         "./jsx-a11y.json",
         "./import.json"
@@ -25,7 +24,6 @@
     "plugins": [
         "import",
         "react",
-        "flowtype",
         "react",
         "react-hooks",
         "jsx-a11y"
@@ -53,26 +51,6 @@
         "default-case": 2,
         "dot-notation": 2,
         "eqeqeq": 2,
-        "flowtype/newline-after-flow-annotation": [
-            2,
-            "never"
-        ],
-        "flowtype/no-dupe-keys": 2,
-        "flowtype/no-existential-type": 2,
-        "flowtype/no-primitive-constructor-types": 2,
-        "flowtype/no-weak-types": [
-            2,
-            {
-                "Function": true,
-                "Object": true,
-                "any": false
-            }
-        ],
-        "flowtype/require-valid-file-annotation": 2,
-        "flowtype/sort-keys": [
-            2,
-            "asc"
-        ],
         "func-style": [
             2,
             "declaration",
