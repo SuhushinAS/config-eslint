@@ -27,5 +27,5 @@
     "scripts": {
         "test": "echo \"No test specified\""
     },
-    "version": "2.0.7"
+    "version": "3.0.0"
 }
