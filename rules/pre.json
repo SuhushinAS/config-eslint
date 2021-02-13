@@ -16,9 +16,7 @@
     ],
     "parser": "babel-eslint",
     "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
+        "ecmaFeatures": {"jsx": true},
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
@@ -32,109 +30,32 @@
     "rules": {
         "accessor-pairs": 2,
         "array-callback-return": 2,
-        "camelcase": [
-            2,
-            {
-                "allow": [
-                    "^UNSAFE_"
-                ],
-                "properties": "never"
-            }
-        ],
-        "complexity": [
-            2,
-            {
-                "max": 10
-            }
-        ],
+        "camelcase": [2, {"allow": ["^UNSAFE_"], "properties": "never"}],
+        "complexity": [2, {"max": 10}],
         "consistent-return": 2,
         "curly": 2,
         "default-case": 2,
         "dot-notation": 2,
         "eqeqeq": 2,
-        "flowtype/newline-after-flow-annotation": [
-            2,
-            "never"
-        ],
+        "flowtype/newline-after-flow-annotation": [2, "never"],
         "flowtype/no-dupe-keys": 2,
         "flowtype/no-existential-type": 2,
         "flowtype/no-primitive-constructor-types": 2,
-        "flowtype/no-weak-types": [
-            2,
-            {
-                "Function": true,
-                "Object": true,
-                "any": false
-            }
-        ],
+        "flowtype/no-weak-types": [2, {"Function": true, "Object": true, "any": false}],
         "flowtype/require-valid-file-annotation": 2,
-        "flowtype/sort-keys": [
-            2,
-            "asc",
-            {
-                "caseSensitive": true,
-                "natural": true
-            }
-        ],
-        "func-style": [
-            2,
-            "declaration",
-            {
-                "allowArrowFunctions": true
-            }
-        ],
+        "flowtype/sort-keys": [2, "asc", {"caseSensitive": true, "natural": true}],
+        "func-style": [2, "declaration", {"allowArrowFunctions": true}],
         "guard-for-in": 2,
-        "id-length": [
-            2,
-            {
-                "max": 30,
-                "min": 1
-            }
-        ],
-        "id-match": [
-            2,
-            "^[a-zA-Z0-9$_]*$"
-        ],
-        "jsx-a11y/label-has-for": [
-            2,
-            {
-                "allowChildren": false,
-                "components": [
-                    "Label"
-                ],
-                "required": {
-                    "some": [
-                        "nesting",
-                        "id"
-                    ]
-                }
-            }
-        ],
+        "id-length": [2, {"max": 30, "min": 1}],
+        "id-match": [2, "^[a-zA-Z0-9$_]*$"],
+        "jsx-a11y/label-has-for": [2, {"allowChildren": false, "components": ["Label"], "required": {"some": ["nesting", "id"]}}],
         "line-comment-position": 2,
         "max-classes-per-file": 2,
         "max-depth": 2,
-        "max-lines": [
-            2,
-            {
-                "max": 500
-            }
-        ],
-        "max-lines-per-function": [
-            2,
-            {
-                "max": 150
-            }
-        ],
-        "max-nested-callbacks": [
-            2,
-            4
-        ],
-        "max-params": [
-            2,
-            {
-                "max": 5
-            }
-        ],
+        "max-lines": [2, {"max": 500}],
+        "max-lines-per-function": [2, {"max": 150}],
+        "max-nested-callbacks": [2, 4],
+        "max-params": [2, {"max": 5}],
         "new-cap": 2,
         "no-alert": 2,
         "no-array-constructor": 2,
@@ -143,16 +64,7 @@
         "no-bitwise": 2,
         "no-caller": 2,
         "no-catch-shadow": 2,
-        "no-console": [
-            2,
-            {
-                "allow": [
-                    "error",
-                    "warn",
-                    "info"
-                ]
-            }
-        ],
+        "no-console": [2, {"allow": ["error", "warn", "info"]}],
         "no-continue": 2,
         "no-div-regex": 2,
         "no-else-return": 2,
@@ -191,15 +103,7 @@
         "no-unmodified-loop-condition": 2,
         "no-unneeded-ternary": 2,
         "no-unused-expressions": 2,
-        "no-unused-vars": [
-            2,
-            {
-                "args": "after-used",
-                "argsIgnorePattern": "^e$",
-                "ignoreRestSiblings": true,
-                "vars": "all"
-            }
-        ],
+        "no-unused-vars": [2, {"args": "after-used", "argsIgnorePattern": "^e$", "ignoreRestSiblings": true, "vars": "all"}],
         "no-useless-call": 2,
         "no-useless-catch": 2,
         "no-useless-concat": 2,
@@ -208,61 +112,23 @@
         "no-void": 2,
         "no-with": 2,
         "object-shorthand": 2,
-        "one-var": [
-            2,
-            "never"
-        ],
+        "one-var": [2, "never"],
         "operator-assignment": 2,
         "radix": 2,
         "react-hooks/exhaustive-deps": 2,
         "react-hooks/rules-of-hooks": 2,
         "react/jsx-filename-extension": 2,
-        "react/jsx-no-bind": [
-            2,
-            {
-                "ignoreDOMComponents": true
-            }
-        ],
+        "react/jsx-no-bind": [2, {"ignoreDOMComponents": true}],
         "react/jsx-sort-props": 2,
         "react/no-unsafe": 2,
-        "require-jsdoc": [
-            2,
-            {
-                "require": {
-                    "ArrowFunctionExpression": true,
-                    "ClassDeclaration": true,
-                    "FunctionDeclaration": true,
-                    "FunctionExpression": true,
-                    "MethodDefinition": true
-                }
-            }
-        ],
+        "require-jsdoc": [2, {"require": {"ArrowFunctionExpression": true, "ClassDeclaration": true, "FunctionDeclaration": true, "FunctionExpression": true, "MethodDefinition": true}}],
         "require-unicode-regexp": 2,
-        "sort-keys": [
-            2,
-            "asc",
-            {
-                "caseSensitive": true,
-                "natural": true
-            }
-        ],
+        "sort-keys": [2, "asc", {"caseSensitive": true, "natural": true}],
         "spaced-comment": 2,
-        "valid-jsdoc": [
-            2,
-            {
-                "requireParamType": false,
-                "requireReturn": false,
-                "requireReturnType": false
-            }
-        ],
-        "yoda": [
-            2,
-            "always"
-        ]
+        "valid-jsdoc": [2, {"requireParamType": false, "requireReturn": false, "requireReturnType": false}],
+        "yoda": [2, "always"]
     },
     "settings": {
-        "react": {
-            "version": "^16.8.0"
-        }
+        "react": {"version": "^16.8.0"}
     }
 }
